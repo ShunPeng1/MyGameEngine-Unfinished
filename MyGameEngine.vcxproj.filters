@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{e54f5ce8-7d1a-4f51-8222-6a0450a86e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine">
+      <UniqueIdentifier>{5e904b06-0479-49a2-a4df-0ee6563851aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\WindowSystem">
+      <UniqueIdentifier>{332cbe39-c5d1-4bb0-b812-5f7ec795c084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\GraphicsEngine">
+      <UniqueIdentifier>{c09e4d49-807b-4acd-a3b9-392dbc3a354f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinearAlgebra">
+      <UniqueIdentifier>{bb831034-b4ad-457f-937f-2e0471cfef31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\GraphicsEngine\SwapChain">
+      <UniqueIdentifier>{520b810f-cac6-4e5e-99de-400ba1c67d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\GraphicsEngine\DeviceContext">
+      <UniqueIdentifier>{e5d7d3df-ffae-44c1-8154-95bb3be56e32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\GameEngine\WindowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWindow.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Source Files\GameEngine\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3D.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4D.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3D.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform4D.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>Source Files\GameEngine\GraphicsEngine\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceContext.cpp">
+      <Filter>Source Files\GameEngine\GraphicsEngine\DeviceContext</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files\GameEngine\WindowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWindow.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Source Files\GameEngine\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3D.h">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform4D.h">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4D.h">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>Source Files\LinearAlgebra</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>Source Files\GameEngine\GraphicsEngine\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceContext.h">
+      <Filter>Source Files\GameEngine\GraphicsEngine\DeviceContext</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
